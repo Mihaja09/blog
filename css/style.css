@@ -1,0 +1,333 @@
+.tout {
+    background-color: #b2bcc7;
+    background-image: linear-gradient(to bottom right, #b2bcc7, #dde6e8, #b2bcc7);
+    min-height: 100vh;
+    position: relative;
+}
+
+/*Navigation Bar*/
+.barnav{
+    background-color: #08203a;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 3px #000;
+}
+
+.barnav li {
+    float: left;
+}
+
+.barnav li a {
+    display: block;
+    width: 100px;
+    padding: 5px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+
+.barnav li a:hover:not(.activ) {
+    background-color: #0f3e70;
+}
+
+.activ{
+    background-color: #fb0;
+}
+
+/*Coté gauche*/
+.gauche {
+    margin-top: 10px;
+}
+.gauche p {
+    font-size: 18px;
+    font-weight: 800;
+}
+.gauche li {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    line-height: 1.2;
+    color: #092543;
+}
+
+/*Coté droit*/
+
+.droite {
+    padding-top: 10px;
+}
+
+.droite label{
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    color: #08203a;
+    margin-top: 15px;
+    }
+
+.droite input[type=text],input[type=date] {
+    width: 100%;
+    padding: 5px;
+    display: block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fefefe; 
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+}
+
+.droite textarea {
+    width: 100%;
+    height: 250px;
+    padding: 3x;
+    display: block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none; 
+    background-color: #fefefe; 
+    outline: none;
+    font-size: 15px;
+}
+
+.droite textarea:focus, .droite input[type=text]:focus,input[type=date]:focus {
+    border: 2px solid #333;
+}
+.droite input[type=submit] {
+    display: block;
+    width: 100px;
+    margin: 10px 0 75px 0;
+    padding: 5px;
+    background-color: #08203a;
+    background-image: linear-gradient(to bottom right, #08203a,#0f3e70,#08203a);
+    color: #dde6e8;
+    font-weight: 700;
+    box-shadow: 0px 2px 3px black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.droite input[type=submit]:hover {
+    background-color: #08203a;
+    background-image: linear-gradient(to bottom right, #08203a,#08203a,#08203a);
+    color: #b2bcc7;
+    box-shadow: 0px 1px 2px black;
+}
+
+/*Page d'accueil - Article*/
+.news {
+    padding: 20px;
+    border-left: 2px solid #b2bcc7;
+    border-right: 2px solid #b2bcc7;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.news h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#datesource {
+    font-size: 14px;
+}
+
+.news img {
+    border-radius: 5px 15px;
+    box-shadow: 0px 2px 3px #08203a;
+    margin-bottom: 20px;
+}
+
+/*Page : Blog contenu*/
+
+.pblog {
+    border-bottom: 2px solid #b2bcc7;
+    border-top: 2px solid #b2bcc7;
+    padding: 15px;
+    margin-top: -2px;
+}
+
+.pblog h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #08203a;
+}
+.dtsource {
+    font-size: 13px;
+    color: #333;
+}
+
+/*Page : Blog - Cascade*/
+.cascade {
+    border-left: 2px solid #b2bcc7;
+    border-right: 2px solid #b2bcc7;
+    margin: 10px 0 50px 0;
+    padding: 10px;
+}
+
+
+/*Page : Contact - Formulaire*/
+
+.formulaire {
+    padding: 0 15px 15px 15px;
+    border-left: 2px solid #b2bcc7;
+    border-right: 2px solid #b2bcc7;
+    margin-bottom: 250px;
+}
+
+.formulaire input[type=text], .formulaire input[type=email] {
+    width: 75%;
+    padding: 7px 15px;
+    margin: 0 0 -15px 0;
+    display: block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fefefe; 
+    outline: none;
+}
+.formulaire input[type=text]:focus, .formulaire input[type=email]:focus {
+    border: 2px solid #555;
+}
+
+#remember {
+    font-size: 14px;
+    font-weight: normal;
+    display: inline;
+}
+  
+.formulaire input[type=submit] {
+    width: 100px;
+    display: block;
+    background-color: #08203a;
+    background-image: linear-gradient(to bottom right, #08203a,#0f3e70,#08203a);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 5px 0;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 2px 3px black;
+}
+  
+.formulaire input[type=submit]:hover {
+    background-color: #08203a;
+    background-image: linear-gradient(to bottom right, #08203a,#08203a,#08203a);
+    color: #b2bcc7;
+    box-shadow: 0px 1px 2px #08203a;
+}
+  
+.formulaire label{
+  display: block;
+  width: 100px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #222;
+  }
+  
+.formulaire textarea{
+    margin-bottom: -125px;
+    margin-top: 8px;
+    width: 500px;
+    height: 150px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none; 
+    background-color: #fefefe; 
+    outline: none;
+}
+.formulaire textarea:focus{
+  border: 2px solid #555;
+}
+.formulaire .T2{
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 0 5px #000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*Page : Dashboard*/
+    /*Coté gauche*/
+.gestion {
+    margin-top: 10px;
+}
+.gestion p {
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+    /*tableau*/
+.tableau{
+    margin: 10px 0 50px 0;
+    border-left: 2px solid #aaa;
+    overflow-x: auto;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 97%;
+    margin: 20px;
+    }
+    
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid #aaa;
+    }
+        /*Bouton créer*/
+.creer input[type=button] {
+    display: block;
+    width: 125px;
+    margin: 10px 0 10px 10px;
+    padding: 5px;
+    background-color: #08203a;
+    background-image: linear-gradient(to bottom right, #08203a,#0f3e70,#08203a);
+    color: white;
+    font-weight: 700;
+    box-shadow: 0px 1px 2px black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+.creer input[type=button]:hover {
+    background-color: #08203a;
+    background-image: linear-gradient(to bottom right, #08203a,#08203a,#08203a);
+    color: #b2bcc7;
+    box-shadow: 0px 1px 2px #08203a
+}
+
+
+/*Footer*/
+footer {
+    background-color: #08203a;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 -2px 2px #000;
+    padding: 5px;
+}
+
+.sign {
+    position: absolute;
+    width: 100%;
+    height: 34px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+}
